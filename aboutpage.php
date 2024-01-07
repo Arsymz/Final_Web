@@ -20,7 +20,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav justify-content-center">
               <li class="nav-item">
-                <a class="nav-link text-light" href="index.php">menu</a>
+                <a class="nav-link text-light" href="index.php">Menu</a>
               </li>
               <li class="nav-item dropdown">
                <a class="nav-link dropdown-toggle nav-link text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -59,11 +59,11 @@
                 <div class="card">
                     <div class="flip-card-inner">
                     <div class="flip-card-front">
-                    <img src="profile/ | M Arsy.jpeg" class="card-img-top" alt="Muhamad  | M Arsy" style="height:300px; width:300px">
+                    <img src="images /americano.jpeg" class="card-img-top" alt="Muhamad  | M Arsy" style="height:300px; width:300px">
                     </div>
                     <div class="flip-card-back">
-                        <p class="fw-bold"> | M Arsy</p>
-                        <p class="fw-bold">60900121004 | 60900121050</p>
+                        <p class="fw-bold">Muh. Arsy Mawardi Mz</p>
+                        <p class="fw-bold"> 60900121050</p>
                     </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
             </div>
             <div class="text"style="text-align:justify; margin-top:50px;" >
             <div data-aos="fade-right">
-              <h3>Motivasi saya untuk membuat sebuah project berupa website menu adalah saya ingin mengetahui dan  terus berlatih bagaimana project secara real yang sering kita lihat atau akses dapat saya buat sendiri walaupun masih banyak kekurangannya. </h3>
+              <h3>Motivasi saya untuk membuat sebuah project berupa website Cafe Ku adalah saya ingin mengetahui dan  terus berlatih bagaimana project secara real yang sering kita lihat atau akses dapat saya buat sendiri walaupun masih banyak kekurangannya. </h3>
             </div>
   </div>
         </div>
@@ -100,7 +100,7 @@
 
   <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2023 Copyright:
-    <a class="text-white" style="text-decoration:none;"> | Muh. arsy mawardi mz</a>
+    <a class="text-white" style="text-decoration:none;"> Muh. Arsy Mawardi Mz|Nur Fadillah Nur| Muflih Ramadhan</a>
   </div>
 
 </footer>

@@ -125,7 +125,7 @@ $data = mysqli_fetch_array($query);
                                         value="<?= $data['nama_cafe'] ?>">
                                 </div>
                                 <div class="mb-4">
-                                    <label for="isi_menu" class="form-label">Isi menu</label>
+                                    <label for="isi_menu" class="form-label">Isi Menu</label>
                                     <textarea name="isi_menu" id="isi_menu" class="form-control"><?=
                                     $data['isi_menu'] ?></textarea>
                                 </div>

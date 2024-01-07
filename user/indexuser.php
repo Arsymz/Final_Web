@@ -101,7 +101,7 @@ $query = mysqli_query($koneksi, "SELECT * FROM  user WHERE id='$_SESSION[id]'");
 <section id="content">
         <div class="container" style="margin-top:50px;">
          <form class="d-flex" method="post" style="margin-bottom:50px;">
-      <input class="form-control me-2" type="text" name="keyword" placeholder="Cari Judul menu" aria-label="Search">
+      <input class="form-control me-2" type="text" name="keyword" placeholder="Cari Nama Menu" aria-label="Search">
       <button class="btn btn-outline-dark" type="submit" name="cari"><i class="bi bi-search"></i></button>
     </form>
              <div id="content-CAFE" class="row">

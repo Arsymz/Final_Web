@@ -78,7 +78,7 @@
           <a class="nav-link" href="indexadmin.php">Home</a>
         </li>
     <form class="d-flex" method="post">
-      <input class="form-control me-2" type="text" name="keyword" placeholder="Cari Judul menu" aria-label="Search">
+      <input class="form-control me-2" type="text" name="keyword" placeholder="Cari Nama Menu" aria-label="Search">
       <button class="btn btn-outline-dark" type="submit" name="cari">Search</button>
     </form>
 </ul>

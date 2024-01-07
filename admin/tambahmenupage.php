@@ -87,11 +87,11 @@
                         <div class="card-body" style="background-color:#e4dfdf;">
                             <form action="tambahprosesmenu.php" method="post" enctype="multipart/form-data">
                                 <div class="mb-4">
-                                    <label for="nama_menu" class="form-label">Judul menu</label>
+                                    <label for="nama_menu" class="form-label">Nama Menu</label>
                                     <input type="text" name="nama_menu" id="nama_menu" class="form-control">
                                 </div>
                                  <div class="mb-4">
-                                    <label for="nama_cafe" class="form-label">Penulis menu</label>
+                                    <label for="nama_cafe" class="form-label">Nama Cafe</label>
                                     <input type="text" name="nama_cafe" id="nama_cafe" class="form-control">
                                 </div>
                                 <div class="mb-4">
