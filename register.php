@@ -21,17 +21,17 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav justify-content-center">
               <li class="nav-item">
-                <a class="nav-link text-light" href="index.php">menu</a>
+                <a class="nav-link text-light" href="index.php">Menu</a>
               </li>
               <li class="nav-item dropdown">
                <a class="nav-link dropdown-toggle nav-link text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                Kategori
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li><a class="dropdown-item" href="kategoriKopi Hotpage.php">Kopi Hot</a></li>
-            <li><a class="dropdown-item" href="kategoriKopi Coldpage.php">Kopi Cold</a></li>
-            <li><a class="dropdown-item" href="kategoriNon Kopi Hotpage.php">Non Kopi Hot</a></li>
-            <li><a class="dropdown-item" href="kategoriNon Kopi Coldpage.php">Non Kopi Cold</a></li>
+          <li><a class="dropdown-item" href="kategoriKopiHotpage.php">Kopi Hot</a></li>
+            <li><a class="dropdown-item" href="kategoriKopiColdpage.php">Kopi Cold</a></li>
+            <li><a class="dropdown-item" href="kategoriNonKopiHotpage.php">Non Kopi Hot</a></li>
+            <li><a class="dropdown-item" href="kategoriNonKopiColdpage.php">Non Kopi Cold</a></li>
             <li><a class="dropdown-item" href="kategoriFoodpage.php">Food</a></li>
             <li><a class="dropdown-item" href="kategoriSnackpage.php">Snack</a></li>
            

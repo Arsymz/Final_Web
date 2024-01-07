@@ -69,11 +69,15 @@
                 <div class="card">
                     <div class="flip-card-inner">
                     <div class="flip-card-front">
-                    <img src="../anggota/ | M Arsy.jpeg" class="card-img-top" alt="Muhamad  | M Arsy" style="height:300px; width:300px">
+                    <img src="../images /americano.jpeg" class="card-img-top" alt="arsy" style="height:300px; width:300px">
                     </div>
                     <div class="flip-card-back">
-                        <p class="fw-bold"> | M Arsy</p>
-                        <p class="fw-bold">60900121004 | 60900121050</p>
+                        <p class="fw-bold">Muh. Arsy Mawardi Mz</p>
+                        <p class="fw-bold"> 60900121050</p>
+                        <p class="fw-bold">Nur Fadillah Nur</p>
+                        <p class="fw-bold"> 60900121053</p>
+                        <p class="fw-bold">Muflih Ramadhan</p>
+                        <p class="fw-bold"> 60900121057</p>
                     </div>
                     </div>
                 </div>
@@ -81,7 +85,7 @@
             </div>
             <div class="text"style="text-align:justify; margin-top:50px;" >
             <div data-aos="fade-right">
-              <h3>Motivasi saya untuk membuat sebuah project berupa website Cafe Ku adalah saya ingin mengetahui dan  terus berlatih bagaimana project secara real yang sering kita lihat atau akses dapat saya buat sendiri walaupun masih banyak kekurangannya. </h3>
+              <h3>Motivasi kami untuk membuat sebuah project berupa website Cafe Ku adalah kami ingin mengetahui dan  terus berlatih bagaimana project secara real yang sering kita lihat atau akses dapat kami buat sendiri walaupun masih banyak kekurangannya. </h3>
             </div>
   </div>
         </div>

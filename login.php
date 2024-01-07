@@ -30,7 +30,7 @@ session_start();
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav justify-content-center">
               <li class="nav-item">
-                <a class="nav-link text-light" href="index.php">menu</a>
+                <a class="nav-link text-light" href="index.php">Menu</a>
               </li>
               <li class="nav-item dropdown">
                <a class="nav-link dropdown-toggle nav-link text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -104,9 +104,8 @@ session_start();
             </div>
             <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
               <div class="text-white px-3 py-4 p-md-5 mx-md-4">
-                <h4 class="mb-4 fw-bold">CAFE</h4>
-                <p class="small mb-0" style="text-align:justify;">Merupakan sebuah website menu yang menyediakan menu terbaru, terpecaya dan memiliki fitur yang 
-                    memudahkan pemLihat mencari menu yang ingin diLihat dan membuat pemLihat nyaman dalam memLihat menu.</p>
+                <h4 class="mb-4 fw-bold">Ada Apa Dengan Hari Ini</h4>
+                <p class="small mb-0" style="text-align:justify;">Tetapkan Rasa, Hidupkan Cerita: Nikmati Setiap Suap Inspirasi di Cafe.</p>
               </div>
             </div>
           </div>

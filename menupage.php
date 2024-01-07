@@ -32,7 +32,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav justify-content-center">
               <li class="nav-item">
-                <a class="nav-link text-light fw-bold" href="user/indexuser.php">menu</a>
+                <a class="nav-link text-light fw-bold" href="user/indexuser.php">Menu</a>
               </li>
               <li class="nav-item dropdown">
                <a class="nav-link dropdown-toggle nav-link text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -93,15 +93,16 @@ include "koneksi.php";
                     </div>
                     <hr>
                     <div class="media-body">
+                      <h3>Data </h3>
                      <?php 
-                              echo'<p class="category_text lead fw-normal" style="text-align:justify; margin:15px;"' 
-                            . implode('.</p><p class="category_text lead fw-normal" style="text-align:justify; margin:15px;">', explode('. ',$data['isi_menu'] ))
-                            .'</p>';
+                              echo '<p class="category_text lead fw-normal" style="text-align:justify; margin:15px;">' . implode('</p><p class="category_text lead fw-normal" style="text-align:justify; margin:15px;">', explode('.', $data['isi_menu'])) . '</p>';
+
+
                         ?>
                     </div>
                   </div>
                 <hr>
-                <h3>menu Lainnya</h3>
+                <h3>Menu Lainnya</h3>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-1 row-cols-lg-3 g-3 g-lg-2 m-0 w-100" style="padding-bottom:15px;">
         <?php
         $nama=$data['nama_kategori'];

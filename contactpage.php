@@ -30,7 +30,7 @@ $query = mysqli_query($koneksi, "SELECT * FROM  user WHERE id='$_SESSION[id]'");
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav justify-content-center">
               <li class="nav-item">
-                <a class="nav-link text-light" href="user/indexuser.php">menu</a>
+                <a class="nav-link text-light" href="user/indexuser.php">Menu</a>
               </li>
               <li class="nav-item dropdown">
                <a class="nav-link dropdown-toggle nav-link text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
