@@ -39,10 +39,10 @@
                Kategori
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="kategoriKopi Hotpage.php">Kopi Hot</a></li>
-            <li><a class="dropdown-item" href="kategoriKopi Coldpage.php">Kopi Cold</a></li>
-            <li><a class="dropdown-item" href="kategoriNon Kopi Hotpage.php">Non Kopi Hot</a></li>
-            <li><a class="dropdown-item" href="kategoriNon Kopi Coldpage.php">Non Kopi Cold</a></li>
+            <li><a class="dropdown-item" href="kategoriKopiHotpage.php">Kopi Hot</a></li>
+            <li><a class="dropdown-item" href="kategoriKopiColdpage.php">Kopi Cold</a></li>
+            <li><a class="dropdown-item" href="kategoriNonKopiHotpage.php">Non Kopi Hot</a></li>
+            <li><a class="dropdown-item" href="kategoriNonKopiColdpage.php">Non Kopi Cold</a></li>
             <li><a class="dropdown-item" href="kategoriFoodpage.php">Food</a></li>
             <li><a class="dropdown-item" href="kategoriSnackpage.php">Snack</a></li>
            
