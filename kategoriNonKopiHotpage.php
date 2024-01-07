@@ -8,7 +8,7 @@
            header("location:login.php");
            exit;
        }
-        $id="Kopi Cold";
+        $id="Non Kopi Hot";
         $limit = 5;  
           if (isset($_GET["page"])) {
 	          $page  = $_GET["page"]; 
@@ -42,17 +42,17 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav justify-content-center">
               <li class="nav-item">
-                <a class="nav-link text-light" href="user/indexuser.php">menu</a>
+                <a class="nav-link text-light" href="user/indexuser.php">Menu</a>
               </li>
               <li class="nav-item dropdown">
                <a class="nav-link dropdown-toggle nav-link text-light fw-bold" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                Kategori
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li><a class="dropdown-item" href="kategoriKopi Hotpage.php">Kopi Hot</a></li>
-            <li><a class="dropdown-item fw-bold" href="kategoriKopi Coldpage.php">Kopi Cold</a></li>
-            <li><a class="dropdown-item" href="kategoriNon Kopi Hotpage.php">Non Kopi Hot</a></li>
-            <li><a class="dropdown-item" href="kategoriNon Kopi Coldpage.php">Non Kopi Cold</a></li>
+          <li><a class="dropdown-item" href="kategoriKopiHotpage.php">Kopi Hot</a></li>
+            <li><a class="dropdown-item" href="kategoriKopiColdpage.php">Kopi Cold</a></li>
+            <li><a class="dropdown-item fw-bold" href="kategoriNonKopiHotpage.php">Non Kopi Hot</a></li>
+            <li><a class="dropdown-item" href="kategoriNonKopiColdpage.php">Non Kopi Cold</a></li>
             <li><a class="dropdown-item" href="kategoriFoodpage.php">Food</a></li>
             <li><a class="dropdown-item" href="kategoriSnackpage.php">Snack</a></li>
            
@@ -78,7 +78,7 @@
     <section id="content">
     <div class="container" style="margin-top:50px;">
     <div class="d-flex justify-content-between">
-      <h3 class="fw-bold">menu Terbaru</h3>
+      <h3 class="fw-bold">Menu Terbaru</h3>
         
       </div>
       <hr>
@@ -109,7 +109,7 @@
     </div>
              <div id="content-CAFE" class="row" style="margin-top:50px;">
                 <div class="col-12 col-md-12">
-                    <h3 class="fw-bold">Lihat menu</h3>
+                    <h3 class="fw-bold">Lihat Menu</h3>
                     <hr>
                      <?php
                       $result = mysqli_query($koneksi,"SELECT * FROM menu INNER JOIN kategori ON menu.id_kategori=kategori.id_kategori WHERE nama_kategori='$id' ORDER BY id_menu DESC LIMIT $start_from, $limit");
@@ -137,14 +137,14 @@
         ?>
 </div>
 <?php  
-$result_db = mysqli_query($koneksi,"SELECT COUNT(*) as jumlah FROM menu WHERE id_kategori ='4'"); 
+$result_db = mysqli_query($koneksi,"SELECT COUNT(*) as jumlah FROM menu WHERE id_kategori ='3'"); 
 $row_db = mysqli_fetch_row($result_db);  
 $total_records = $row_db[0];  
 $total_pages = ceil($total_records / $limit); 
 
 $pagLink = "<ul class='pagination'>";  
 for ($i=1; $i<=$total_pages; $i++) {
-              $pagLink .= "<li class='page-item'><a class='page-link bg-dark text-white' href='kategoriKopi Coldpage.php?page=".$i."'>".$i."</a></li>";	
+              $pagLink .= "<li class='page-item'><a class='page-link bg-dark text-white' href='kategoriNon Kopi Hotpage.php?page=".$i."'>".$i."</a></li>";	
 }
 echo $pagLink . "</ul>";  
 ?>
